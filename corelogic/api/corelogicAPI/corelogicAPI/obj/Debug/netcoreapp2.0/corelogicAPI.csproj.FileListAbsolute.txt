@@ -1,0 +1,11 @@
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\bin\Debug\netcoreapp2.0\corelogicAPI.deps.json
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\bin\Debug\netcoreapp2.0\corelogicAPI.runtimeconfig.json
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\bin\Debug\netcoreapp2.0\corelogicAPI.runtimeconfig.dev.json
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\bin\Debug\netcoreapp2.0\corelogicAPI.dll
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\bin\Debug\netcoreapp2.0\corelogicAPI.pdb
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.csprojAssemblyReference.cache
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.csproj.CoreCompileInputs.cache
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.AssemblyInfoInputs.cache
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.AssemblyInfo.cs
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.dll
+D:\Marcos\projects\juan\corelogic\api\corelogicAPI\corelogicAPI\obj\Debug\netcoreapp2.0\corelogicAPI.pdb

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <!-- Favicon -->
+  <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+  <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Argon CSS -->
+  <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="position-relative">
+      <section class="section section-lg section-hero section-shaped">
+        <div class="shape shape-style-1 shape-primary"></div>
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <!-- filter column -->
+            <div class="col app-filter align-self-start">
+              <!-- date range selector -->
+              <div class="card filter-daterange">
+                <div class="card-body">
+                  <h5 class="card-title">Date Range</h5>
+                  <div class="card-text">
+                    <div class="calendar-container">
+                      <div class="input-daterange datepicker row align-items-center" data-date-format="dd/mm/yyyy">
+                        <div class="col">
+                          <div class="form-group">
+                            <div class="input-group input-group-alternative">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                              </div>
+                              <input class="form-control" id="startDate" placeholder="Start date" type="text" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group">
+                            <div class="input-group input-group-alternative">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                              </div>
+                              <input class="form-control" id="endDate" placeholder="End date" type="text" value="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="button" onclick="applyDateRange();">Apply Filter</button>
+                  </div>
+                </div>
+              </div> <!-- end of date range selector -->
+              <!-- practitioners list -->
+              <div class="card filter-practitioners">
+                <div class="card-body">
+                  <h5 class="card-title">Practitioners</h5>
+                  <div class="card-text">
+                    <ul class="list-group" id="practitioners-list">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- end of filter column -->
+
+            <!-- Report column -->
+            <div class="col app-report align-self-start">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Report</h5>
+                  <div class="card-text">
+                    <ul class="list-group" id="report-list">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- end of report column -->
+
+            <!-- appointments column -->
+            <div class="col app-appointments align-self-start">
+
+              <div class="list-appointments-container">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Appointments</h5>
+                    <div class="card-text">
+                      <ul class="list-group" id="appointment-list">
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="appointment-details-container">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Appointment Details</h5>
+                    <div class="card-text" id="appointment-details">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- end of appointments column -->
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer></footer>
+  <!-- Core -->
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/popper/popper.min.js"></script>
+  <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="./assets/vendor/headroom/headroom.min.js"></script>
+  <!-- Optional JS -->
+  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!-- Argon JS -->
+  <script src="./assets/js/argon.js?v=1.0.1"></script>
+  <!-- Moment Js -->
+  <script src="./assets/vendor/momentjs/moment.min.js"></script>
+  <!-- Main logic JS-->
+  <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>

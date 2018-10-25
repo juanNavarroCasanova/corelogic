@@ -1,0 +1,50 @@
+.container
+{
+    max-width: 100%; 
+    padding: 20px;
+
+    flex: 1 1;
+}
+
+.navbar-brand img
+{
+    height: 54px;
+}
+
+.app-filter .card,
+.app-report .card,
+.app-appointments .card
+{
+    background-color: rgba(255, 255, 255, .8);
+}
+.app-filter .card .card-title,
+.app-report .card .card-title,
+.app-appointments .card .card-title
+{
+    color: #000;
+}
+
+.filter-daterange
+{
+    margin-bottom: 20px;
+}
+
+.list-appointments-container
+{
+    margin-bottom: 20px;
+}
+.list-appointments-container .card-text
+{
+    overflow-y: auto; 
+
+    max-height: 500px;
+}
+
+.like-a-toolbar
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
