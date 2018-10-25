@@ -10,7 +10,7 @@ localhost:59489/api/practitioners ( the port must be 59489)</p>
 
 <h2 id="file-structure">Project Structure</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>argon/
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/
 ├── README.md
 ├── corelogicAPI/
   ├── Controllers
